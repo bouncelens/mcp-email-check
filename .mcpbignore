@@ -1,0 +1,4 @@
+test/
+CHANGELOG.md
+*.mcpb
+.gitignore
