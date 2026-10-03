@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.bouncelens/email-check",
+  "title": "BounceLens Email Check",
+  "description": "Check emails for typos, disposable domains and dead domains. Runs locally, no API key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://bouncelens.com/",
+  "repository": { "url": "https://github.com/bouncelens/mcp-email-check", "source": "github" },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/bouncelens/mcp-email-check/releases/download/v1.0.0/bouncelens-email-check-1.0.0.mcpb",
+      "fileSha256": "f3541d57c8ddab9c03237eac6d087dfb187944fe8c4d2356fcd132fda7d1e350",
+      "transport": { "type": "stdio" }
+    }
+  ]
+}
