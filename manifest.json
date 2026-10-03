@@ -5,8 +5,14 @@
   "version": "1.0.0",
   "description": "Check email addresses for typos, disposable domains and dead domains. Runs locally, no API key.",
   "long_description": "Finds mistyped domains (jane@gmial.com → jane@gmail.com), disposable/throwaway domains, domains that don't exist or have no mail server, bad syntax, role addresses and duplicates (Gmail dot and +tag variants count as the same inbox). Runs on your machine with no API key or account; the only network calls are DNS-over-HTTPS lookups of the domain's MX/A records (Cloudflare 1.1.1.1). It never connects to the recipient's mail server, so the best result is \"unconfirmed\". Same checks as the free checker at [bouncelens.com](https://bouncelens.com/).",
-  "author": { "name": "BounceLens", "url": "https://bouncelens.com/" },
-  "repository": { "type": "git", "url": "https://github.com/bouncelens/mcp-email-check.git" },
+  "author": {
+    "name": "BounceLens",
+    "url": "https://bouncelens.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bouncelens/mcp-email-check.git"
+  },
   "homepage": "https://bouncelens.com/",
   "documentation": "https://github.com/bouncelens/mcp-email-check#readme",
   "support": "https://github.com/bouncelens/mcp-email-check/issues",
@@ -14,14 +20,35 @@
   "server": {
     "type": "node",
     "entry_point": "index.js",
-    "mcp_config": { "command": "node", "args": ["${__dirname}/index.js"] }
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/index.js"
+      ]
+    }
   },
-  "tools": [
-    { "name": "check_email", "description": "Check one email address: syntax, domain typo, disposable, role address, domain exists / has a mail server" },
-    { "name": "check_emails", "description": "Check up to 500 email addresses at once, with a summary and duplicate detection" }
+  "keywords": [
+    "email",
+    "email validation",
+    "email verification",
+    "disposable email",
+    "typo",
+    "mx",
+    "deliverability"
   ],
-  "keywords": ["email", "email validation", "email verification", "disposable email", "typo", "mx", "deliverability"],
   "license": "MIT",
-  "privacy_policies": ["https://github.com/bouncelens/mcp-email-check#privacy"],
-  "compatibility": { "platforms": ["darwin", "win32", "linux"], "runtimes": { "node": ">=18.0.0" } }
+  "privacy_policies": [
+    "https://github.com/bouncelens/mcp-email-check#privacy"
+  ],
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "tools_generated": true
 }
