@@ -1,0 +1,49 @@
+{
+  "name": "bouncelens-email-check",
+  "version": "1.0.0",
+  "description": "MCP server that checks email addresses for typos, disposable domains and dead domains. Runs locally, no API key.",
+  "type": "module",
+  "bin": {
+    "bouncelens-email-check": "index.js"
+  },
+  "main": "server.js",
+  "files": [
+    "index.js",
+    "server.js",
+    "lib/",
+    "data/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email",
+    "email validation",
+    "email verification",
+    "disposable email",
+    "email typo",
+    "mx"
+  ],
+  "homepage": "https://bouncelens.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouncelens/mcp-email-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bouncelens/mcp-email-check/issues"
+  },
+  "author": "BounceLens (https://bouncelens.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "^4.6.5"
+  }
+}
