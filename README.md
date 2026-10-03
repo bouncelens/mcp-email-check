@@ -1,5 +1,7 @@
 # BounceLens Email Check – MCP server
 
+[![smithery badge](https://smithery.ai/badge/bouncelens/email-check)](https://smithery.ai/servers/bouncelens/email-check)
+
 Lets Claude, Cursor and other MCP clients check email addresses before you send to them or save them. It finds:
 
 - **Typos** in the domain: `jane@gmial.com` → did you mean `jane@gmail.com`?
@@ -14,7 +16,7 @@ Runs on your machine. **No API key, no account, no sign-up.** The only network c
 
 ## Install
 
-Requires Node.js 18 or newer.
+Requires Node.js 18 or newer. Also listed on [Smithery](https://smithery.ai/servers/bouncelens/email-check).
 
 **Claude Code**
 
