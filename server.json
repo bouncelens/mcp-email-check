@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.bouncelens/email-check",
+  "name": "io.github.akshaycu777-ui/bouncelens-email-check",
   "title": "BounceLens Email Check",
   "description": "Check emails for typos, disposable domains and dead domains. Runs locally, no API key.",
   "version": "1.0.0",
