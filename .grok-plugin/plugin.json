@@ -1,0 +1,14 @@
+{
+  "name": "bouncelens",
+  "version": "1.0.0",
+  "description": "Check email addresses for typos, disposable domains and dead domains before you send to them or save them. Runs locally, no API key.",
+  "author": {
+    "name": "BounceLens",
+    "url": "https://bouncelens.com/"
+  },
+  "homepage": "https://bouncelens.com/",
+  "repository": "https://github.com/bouncelens/mcp-email-check",
+  "license": "MIT",
+  "keywords": ["bouncelens", "bouncelens email check"],
+  "logo": "icon.png"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bouncelens": {
+      "command": "npx",
+      "args": ["-y", "github:bouncelens/mcp-email-check#v1.0.0"]
+    }
+  }
+}

@@ -37,6 +37,10 @@ claude mcp add bouncelens -- npx -y github:bouncelens/mcp-email-check
 }
 ```
 
+**Grok Build**
+
+This repo is also a Grok Build plugin (`.grok-plugin/plugin.json`, `.mcp.json` and a skill in `skills/`). Install it from the plugin marketplace, or add the MCP server by hand with the same `npx` command as above.
+
 **From a clone**
 
 ```sh
