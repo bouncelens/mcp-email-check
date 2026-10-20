@@ -16,7 +16,7 @@ Runs on your machine. **No API key, no account, no sign-up.** The only network c
 
 ## Install
 
-Requires Node.js 18 or newer. Also listed on [Smithery](https://smithery.ai/servers/bouncelens/email-check).
+Requires Node.js 18 or newer. Setup guide for every client: **[bouncelens.com/mcp](https://bouncelens.com/mcp/)**. Also listed on [Smithery](https://smithery.ai/servers/bouncelens/email-check).
 
 **Claude Code**
 
@@ -100,6 +100,8 @@ npm test          # offline: DNS answers are faked
 
 - [bouncelens.com](https://bouncelens.com/) – free email list checker in your browser (CSV in, clean list out)
 - [Craft CMS plugin](https://bouncelens.com/craft/) – blocks fake and mistyped emails in Craft forms
+- [Google Sheets add-on](https://bouncelens.com/google-sheets/) – check a column of emails inside Google Sheets
+- [n8n node](https://bouncelens.com/n8n/) and [WordPress plugin](https://bouncelens.com/wordpress/) – the same checks in workflows and forms
 
 ## License
 
